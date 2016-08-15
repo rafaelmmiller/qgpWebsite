@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="QGP Website">
+    <meta name="author" content="Emanuel Lima e Rafael M. Miller">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Como os Físicos Estudam o QGP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="navbar-static-top.css">
+
+    <!-- Fontes por Adobe Typekit -->
+    <script src="https://use.typekit.net/tyd6xjf.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <style>
+      body {
+        background-image: url("images/sph.png");
+        background-color: black;
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+
+    <div class="col-lg-offset-1 col-lg-10 box-content" align="justify">
+
+      <h1 style="font-size:50px" align="center"> Como os Físicos Estudam o QGP? </h1>
+
+      <p style="font-size:18px">A maneira como físicos experimentais e teóricos estudam o plasma de quarks e glúon difere bastante. Experimentalistas utilizam os dados obtidos de aceleradores como o RHIC e o LHC para tentar identificar padrões e perceber propriedades do QGP. Já teóricos tentam criar modelos matemáticos que expliquem as observações feitas por experimentalistas. A física só avança quando ambos trabalham em conjunto.</p>
+      <p style="font-size:18px"> Através da análise de dados, físicos experimentais procuram pistas que indiquem que o plasma foi formado. Por exemplo, a supressão de jatos e a formação de “partículas estranhas” podem ser um indício. Para entender isso um pouco melhor, observe que durante a fase de hadronização do plasma de quarks e glúons, alguns quarks strange podem se combinar e formar hádrons “estranhos” (no sentido de que são formados por quarks strange). À formação de hádrons estranhos damos o nome de produção de estranheza. Ao compararmos colisões onde não se formaria um plasma de quarks e glúons e colisões onde se formaria, percebe-se que a produção de estranheza é muito maior quando há QGP. Por isso diz-se que a estranheza é uma “assinatura” da formação do plasma. </p>
+      <p style="font-size:18px">Experimentalistas tentaram detectar a presença de partículas “estranhas”, mas não conseguiram porque elas não deixam rastros nos detectores. Então, como eles fazem? Estes hádrons estranhos decaem em outras partículas que marcam o detector, então basta analisar as partículas “filhas” para detectar as partículas “mães”. Esse trabalho é feito no grupo HEPIC do Instituto de Física da USP.</p>
+      <p style="font-size:18px"> Já os físicos teóricos estudam o plasma de quarks e glúons utilizando ferramentas matemáticas e computacionais. Por exemplo, as equações da mecânica dos fluidos relativística são utilizadas para tentar criar um modelo que explique diversas propriedades do plasma como o fato dele se comportar como um líquido perfeito (de viscosidade minúscula). No nosso grupo de pesquisa, utilizamos um método computacional chamado de Smoothed Particle Hydrodinamics (SPH) para simular as propriedades do QGP. Este método foi inicialmente desenvolvido para estudos em astrofísica por Gingold, Monaghan e Lucy em 1977. Basicamente, neste método o fluido é dividido em partículas e as equações da hidrodinâmica são escritas para estas partículas.</p>
+      <p style="font-size:18px"> Foi criado um código chamado NeXSPheRIO, baseado no método SPH, para estudar a hidrodinâmica de colisões de íons pesados relativísticos. Neste código, as condições iniciais de uma colisão são obtidas a partir do gerador de eventos NeXus e as equações da hidrodinâmica são resolvidas para cada colisão. Isto é chamado, atualmente, de hidrodinâmica evento-por-evento.</p>
+      <p style="font-size:18px"> Em 2010, dados obtidos no RHIC comprovaram a necessidade de levar em conta a granularidade das condições iniciais como argumentávamos e o uso da hidrodinâmica evento-por-evento se generalizou. Contudo, normalmente, os pesquisadores adaptaram os códigos que tinham para condições iniciais lisas ao caso onde havia granularidade. Nestes códigos, as equações da hidrodinâmica são resolvidas sobre um “grid”, o que pode não ser muito adequado no caso de granularidade. </p>
+      <p style="font-size:18px"> Hoje, o método SPH é considerado superior ao método com “grid” em muitas aplicações nas ciências e engenharia. Há uma comunidade de utilizadores do método, o SPHERIC, que agrega pesquisadores e utilizadores industriais do método.</p>
+      <p style="font-size:18px"> O plasma de quarks e glúons é um fenômeno muito estudado no mundo, mas ainda sabemos muito pouco sobre ele. Descobrir mais sobre o QGP nos fará entender melhor a matéria da qual nós somos feitos, os primeiros instantes do universo e até o conteúdo de certas estrelas. Quando um ser humano olha para o plasma e tenta desvendar os seus mistérios, no fundo são quarks tentando entender a si próprios.</p>
+
+
+    </div>
+
+
+
+  </body>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/docs.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="ie10-viewport-bug-workaround.js"></script>
+
+</html>

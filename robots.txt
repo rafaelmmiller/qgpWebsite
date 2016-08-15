@@ -1,0 +1,7 @@
+#Bloquear partes do site para que não sejam indexadas por mecanismos de pesquisa.
+
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
