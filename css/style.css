@@ -5,6 +5,15 @@ body {
   color: white;
 }
 
+.btn {
+  background-color: rgb(70,0,255) !important;
+  color: white;
+}
+
+ul.unstyled li a {
+   color: #ffffff;
+}
+
 .box-qgp {
   background-color: white;
   align: center;
@@ -14,7 +23,7 @@ body {
 }
 
 .box-content {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9) !important;
   align: center;
   border-radius: 0;
   padding: 10px 40px 40px 40px;
